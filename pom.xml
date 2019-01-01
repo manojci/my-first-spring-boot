@@ -46,6 +46,7 @@
 				<configuration>
 					<!-- replace `callicoder` with your docker id-->
 					<repository>manojci/spring-boot-app</repository>
+					<dockerHost>http://192.168.99.100:2375</dockerHost>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					<tag>${tag.version}</tag>
 					<buildArgs>
